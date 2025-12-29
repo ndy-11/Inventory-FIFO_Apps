@@ -1,6 +1,7 @@
 # 📦 Inventory-FIFO_Apps
 
-Inventory-FIFO_Apps adalah aplikasi manajemen persediaan barang yang menerapkan metode **FIFO (First In, First Out)** untuk memastikan pengelolaan stok yang akurat, transparan, dan efisien. Aplikasi ini dirancang untuk membantu pengelolaan stok pada gudang, toko, UMKM, maupun kebutuhan internal perusahaan.
+Inventory-FIFO_Apps adalah aplikasi manajemen persediaan barang yang menerapkan metode **FIFO (First In, First Out)** 
+untuk memastikan pengelolaan stok yang akurat, transparan, dan efisien. Aplikasi ini dirancang untuk membantu pengelolaan stok pada gudang, toko, UMKM, maupun kebutuhan internal perusahaan.
 
 ---
 
@@ -13,7 +14,6 @@ Inventory-FIFO_Apps adalah aplikasi manajemen persediaan barang yang menerapkan 
 - ⚠️ Validasi Stok (Mencegah Stok Minus)  
 - 🔎 Pencarian & Filter Data Barang  
 - 📈 Laporan Stok dan Transaksi  
-- 👤 Manajemen Pengguna (Opsional)  
 
 ---
 
@@ -28,24 +28,25 @@ Metode FIFO memastikan bahwa barang yang **pertama masuk** akan menjadi barang y
 - Backend  : PHP  
 - Database : MySQL  
 - Frontend : HTML, CSS, JavaScript  
-- Version Control : Git & GitHub  
 
 ---
 
 ## 📂 Struktur Folder
 
+<pre>
   Inventory-FIFO_Apps/
   ├── backend/
   ├── frontend/
   ├── database/
   ├── docs/
   └── README.md
+</pre>
 
 ---
 
 ## ⚙️ Cara Instalasi & Menjalankan Aplikasi
 
-### 1️⃣ Clone Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/username/Inventory-FIFO_Apps.git
@@ -95,3 +96,4 @@ GitHub : [https://github.com/username](https://github.com/ndy-11)
 
 --- 
 ## ⭐ Jika aplikasi ini bermanfaat, jangan lupa beri star pada repository ini.
+
