@@ -1,100 +1,123 @@
-# 📦 Inventory-FIFO_Apps
+# 📦 Inventory FIFO Apps
 
-Inventory-FIFO_Apps adalah aplikasi manajemen persediaan barang yang menerapkan metode **FIFO (First In, First Out)** 
-untuk memastikan pengelolaan stok yang akurat, transparan, dan efisien. Aplikasi ini dirancang untuk membantu pengelolaan stok pada gudang, toko, UMKM, maupun kebutuhan internal perusahaan.
-
----
-
-## 🚀 Fitur Utama
-
-- 📥 Pencatatan Barang Masuk  
-- 📤 Pengeluaran Barang Otomatis Menggunakan Metode FIFO  
-- 📊 Perhitungan Stok Secara Real-Time  
-- 🧾 Riwayat Transaksi Barang Masuk & Keluar  
-- ⚠️ Validasi Stok (Mencegah Stok Minus)  
-- 🔎 Pencarian & Filter Data Barang  
-- 📈 Laporan Stok dan Transaksi  
+<p align="center">
+  <b>Aplikasi Manajemen Persediaan Barang Berbasis FIFO</b><br>
+  <i>Simple • Akurat • Efisien</i>
+</p>
 
 ---
 
-## 🧠 Metode FIFO (First In, First Out)
+## 📖 Tentang Aplikasi
 
-Metode FIFO memastikan bahwa barang yang **pertama masuk** akan menjadi barang yang **pertama keluar**. Pendekatan ini efektif untuk menghindari penumpukan barang lama, mengurangi risiko barang kedaluwarsa, menjaga keakuratan nilai persediaan, serta meningkatkan efisiensi operasional.
+**Inventory-FIFO_Apps** adalah aplikasi manajemen persediaan barang yang menerapkan metode  
+**FIFO (First In, First Out)**, di mana barang yang pertama masuk akan menjadi barang pertama keluar.
+
+Aplikasi ini dirancang untuk membantu pengelolaan stok pada **gudang, toko, UMKM**, maupun  
+**kebutuhan internal perusahaan**, agar stok tetap **terkontrol, transparan, dan akurat**.
+
+---
+
+## ✨ Fitur Unggulan
+
+- 📥 **Manajemen Barang Masuk**
+- 📤 **Barang Keluar Otomatis (FIFO)**
+- 📊 **Perhitungan Stok Real-Time**
+- 🧾 **Riwayat Transaksi Lengkap**
+- ⚠️ **Validasi Stok (Anti Minus)**
+- 🔎 **Pencarian & Filter Data**
+- 📈 **Laporan Stok & Transaksi**
+
+---
+
+## 🧠 Konsep FIFO (First In, First Out)
+
+Metode FIFO memastikan bahwa:
+
+> Barang yang **pertama masuk** akan menjadi barang yang **pertama keluar**
+
+### Manfaat penerapan FIFO:
+- Menghindari penumpukan barang lama
+- Mengurangi risiko barang kedaluwarsa
+- Menjaga keakuratan nilai persediaan
+- Meningkatkan efisiensi operasional
 
 ---
 
 ## 🛠️ Teknologi yang Digunakan
 
-- Backend  : PHP  
-- Database : MySQL  
-- Frontend : HTML, CSS, JavaScript  
+| Komponen  | Teknologi |
+|---------|----------|
+| Backend | PHP |
+| Database | MySQL |
+| Frontend | HTML, CSS, JavaScript |
+| Version Control | Git & GitHub |
 
 ---
 
 ## 📂 Struktur Folder
 
 <pre>
-  Inventory-FIFO_Apps/
-  ├── backend/
-  ├── frontend/
-  ├── database/
-  ├── docs/
-  └── README.md
+Inventory-FIFO_Apps/
+├── backend/        # Logic aplikasi & API
+├── frontend/       # Tampilan antarmuka
+├── database/       # Struktur & query database
+├── docs/           # Dokumentasi tambahan
+└── README.md
 </pre>
 
 ---
 
-## ⚙️ Cara Instalasi & Menjalankan Aplikasi
+## ⚙️ Instalasi & Menjalankan Aplikasi
 
-### Clone Repository
-
+### 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/username/Inventory-FIFO_Apps.git
 cd Inventory-FIFO_Apps
-```
----
 
-### Install Dependency
+```
+
+### 2️⃣ Install Dependency
 
 ```bash
 composer install
 ```
 
----
+### 3️⃣ Konfigurasi Environment
 
-### Konfigurasi Environment
+- Atur koneksi database pada file .env
+- Import database MySQL yang tersedia di folder database
 
-Atur koneksi database pada file .env
-Import Database
+### 4️⃣ Jalankan Aplikasi
 
----
+Gunakan web server lokal seperti:
+- XAMPP
+- Laragon
+- Apache / Nginx
 
-## 📊 Contoh Alur FIFO
+### 🔄 Contoh Alur FIFO
 
-Barang A masuk pada tanggal 1
-Barang A masuk pada tanggal 5
-Saat barang keluar, sistem otomatis mengambil stok dari tanggal 1 terlebih dahulu
-
----
+1. Barang A masuk → Tanggal 1
+2. Barang A masuk → Tanggal 5
+3. Barang keluar → sistem otomatis mengambil stok tanggal 1 terlebih dahulu
 
 ## 🤝 Kontribusi
 
-Kontribusi sangat terbuka untuk pengembangan aplikasi ini. Silakan fork repository, buat branch baru, lakukan commit perubahan, dan ajukan pull request.
+## Kontribusi sangat terbuka ✨
 
----
+Silakan ikuti langkah berikut:
+- Fork repository
+- Buat branch baru
+- Commit perubahan
+- Ajukan Pull Request
 
 ## 📝 Lisensi
 
-Proyek ini menggunakan lisensi MIT dan bebas digunakan untuk keperluan pribadi maupun komersial.
-
----
+Proyek ini menggunakan MIT License
+Bebas digunakan untuk keperluan pribadi maupun komersial.
 
 ## 👨‍💻 Developer
 
-Dikembangkan oleh Sandy Irawan
-GitHub : [https://github.com/ndy-11]
+Sandy Irawan
+GitHub : https://github.com/ndy-11
 
---- 
-## ⭐ Jika aplikasi ini bermanfaat, jangan lupa beri star pada repository ini.
-
-
+## ⭐ Jika aplikasi ini bermanfaat, jangan lupa beri star pada repository ini
