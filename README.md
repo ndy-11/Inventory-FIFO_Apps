@@ -92,8 +92,9 @@ Proyek ini menggunakan lisensi MIT dan bebas digunakan untuk keperluan pribadi m
 ## 👨‍💻 Developer
 
 Dikembangkan oleh Sandy Irawan
-GitHub : [https://github.com/username](https://github.com/ndy-11)
+GitHub : [https://github.com/ndy-11]
 
 --- 
 ## ⭐ Jika aplikasi ini bermanfaat, jangan lupa beri star pada repository ini.
+
 
